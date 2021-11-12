@@ -1,0 +1,25 @@
+{
+  "app": {
+    "bundleName": "me.jfenn.hmosutils",
+    "vendor": "jfenn",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "me.jfenn.hmosutils",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "hmosutils",
+      "moduleType": "har"
+    }
+  }
+}

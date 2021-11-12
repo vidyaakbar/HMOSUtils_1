@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:id="$+id:buttondimen"
+        ohos:right_of="$id:button"
+        ohos:top_margin="30vp"
+        ohos:padding="15vp"
+        ohos:left_margin="10vp"
+        ohos:text="Dimension Utils"
+        ohos:text_size="28vp"
+        ohos:text_color="#FFF8F4F4"
+        ohos:background_element="#FF03CACA"
+        />
+
+    <Button
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:id="$+id:buttonimageutil"
+        ohos:below="$id:buttondimen"
+        ohos:right_of="$id:button"
+        ohos:top_margin="30vp"
+        ohos:top_padding="15vp"
+        ohos:bottom_padding="15vp"
+        ohos:left_padding="38vp"
+        ohos:right_padding="38vp"
+        ohos:left_margin="20vp"
+        ohos:text="Image Utils"
+        ohos:text_size="28vp"
+        ohos:text_color="#FFF8F4F4"
+        ohos:background_element="#FF03CACA"
+        />
+
+    <Button
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:id="$+id:buttoncolorutil"
+        ohos:below="$+id:buttonimageutil"
+        ohos:right_of="$id:button"
+        ohos:top_margin="30vp"
+        ohos:padding="15vp"
+        ohos:left_padding="38vp"
+        ohos:right_padding="38vp"
+        ohos:left_margin="20vp"
+        ohos:text="Colour Utils"
+        ohos:text_size="28vp"
+        ohos:text_color="#FFF8F4F4"
+        ohos:background_element="#FF03CACA"
+        />
+
+
+</DependentLayout>

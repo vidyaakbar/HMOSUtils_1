@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:scrollview"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    >
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical"
+        ohos:alignment="horizontal_center">
+
+        <Button
+            ohos:id="$+id:imagebutton"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="20fp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text="Click to test ImageUtils - drawableToBitmap"
+            ohos:text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+            ohos:background_element="$graphic:capsule_button_element"
+            ohos:top_margin="10vp"
+            ohos:padding="5vp"
+            ohos:clickable="true"
+            />
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:imageview"
+            ohos:top_margin="50vp"
+            ohos:scale_x="1.5"
+            ohos:scale_y="1.5"
+            />
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:imageview2"
+            ohos:top_margin="110vp"
+            ohos:scale_x="1.8"
+            ohos:scale_y="1.8"
+            />
+
+        <Button
+            ohos:id="$+id:backbutton"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="20fp"
+            ohos:layout_alignment="bottom"
+            ohos:text="back"
+            ohos:text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+            ohos:background_element="$graphic:capsule_button_element"
+            ohos:top_margin="150vp"
+            ohos:left_margin="200vp"
+            ohos:padding="10vp"
+            ohos:clickable="true"
+            />
+
+    </DirectionalLayout>
+</ScrollView>
