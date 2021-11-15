@@ -33,6 +33,5 @@ public class AnimatedFloat extends AnimatedValue<Float> {
             return getTarget();
         }
     }
-
 }
 

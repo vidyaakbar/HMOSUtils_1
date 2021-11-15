@@ -32,6 +32,7 @@ public class DimenUtils {
     public static float pxToDp(Context context, int pixels) {
         return pixels / (context.getResourceManager().getDeviceCapability().screenDensity / 160);
     }
+
     /**
          * Converts sp to pixels.
          *
@@ -39,7 +40,6 @@ public class DimenUtils {
          * @param sp            A distance measurement, in sp.
          * @return The value of the provided sp units, in pixels.
          */
-
     public static int spToPx(Context context, float sp) {
         return (int) ((ohos.agp.window.service.DisplayManager
                 .getInstance().getDefaultDisplay(context).get().getAttributes().scalDensity) * sp);
@@ -52,10 +52,8 @@ public class DimenUtils {
         * @param pixels        A distance measurement, in pixels.
         * @return              The value of the provided pixel units, in sp.
         */
-
     public static float pxToSp(Context context, int pixels) {
         return pixels / (ohos.agp.window.service.DisplayManager.getInstance()
             .getDefaultDisplay(context).get().getAttributes().scalDensity);
     }
-
 }

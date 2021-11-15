@@ -41,7 +41,6 @@ public class ImageUtils {
             }
         }
 
-
         if (drawable.getWidth() <= 0 || drawable.getHeight() <= 0) {
             PixelMap.InitializationOptions options2 = new PixelMap.InitializationOptions();
             options2.size = new Size(1, 1);
@@ -62,5 +61,4 @@ public class ImageUtils {
 
         return bitmap;
     }
-
 }

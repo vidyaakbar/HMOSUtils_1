@@ -96,5 +96,4 @@ public class ImageAbilitySlice extends AbilitySlice {
     public void onForeground(Intent intent) {
         super.onForeground(intent);
     }
-
 }

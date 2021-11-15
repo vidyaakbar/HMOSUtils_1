@@ -237,5 +237,4 @@ public class AnimatedColor {
         greenValue.next(animate, duration);
         blueValue.next(animate, duration);
     }
-
 }
